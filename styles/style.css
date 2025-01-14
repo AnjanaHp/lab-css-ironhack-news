@@ -218,3 +218,28 @@ header {
    }
 }
 
+@media (min-width: 761px) and (max-width: 1024px){
+  .navbar {
+    justify-content: flex-start;
+  }
+
+  .navbar li{
+    width: 175px;
+    display:inline-flex;
+    justify-content: center;
+  }
+
+.main-article .image{
+  width:100%;
+ }
+ .main-article .content{
+  width: 100%;
+ }
+ .articles-container{
+  width:100%;
+ }
+ .articles-container .article{
+  width:45%;
+  margin-bottom: 30px;
+ }
+}
